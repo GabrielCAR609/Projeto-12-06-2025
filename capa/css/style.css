@@ -1,0 +1,39 @@
+@media (max-width: 500px) {
+
+    div.capa-introducao {
+        height: 852px;
+        width: 393px;
+        background-color: blue;
+
+        background-image: url('/image/perrito-salsero.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    div.alinhamento-da-caixa {
+        width: 393px;
+        height: 100px;
+
+        position: relative;
+        top: 20%;
+    }
+
+    p.estilo-texto {
+        font: bold 24px Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    div.flex-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    button.estilo-botao {
+        padding: 3px;
+        font-size: 24px;
+        background: none;
+        border-radius: 20px;
+    }
+}
