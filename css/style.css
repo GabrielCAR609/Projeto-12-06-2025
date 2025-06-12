@@ -42,7 +42,7 @@
     /* REF. conteudo principal */
 
         body{
-        background-image: url(/image/beijo-sanju.gif);
+        background-image: url('../image/beijo-sanju.gif');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
