@@ -7,7 +7,7 @@
         width: 393px;
         background-color: blue;
 
-        background-image: url('/image/perrito-salsero.gif');
+        background-image: url('./image/perrito-salsero.gif');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
