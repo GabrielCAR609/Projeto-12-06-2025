@@ -1,0 +1,120 @@
+@media (max-width: 500px) {
+
+    /* REF. capa */
+
+    div.capa-introducao {
+        height: 852px;
+        width: 393px;
+        background-color: blue;
+
+        background-image: url('/image/perrito-salsero.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    div.alinhamento-da-caixa {
+        width: 393px;
+        height: 100px;
+
+        position: relative;
+        top: 20%;
+    }
+
+    p.estilo-texto {
+        font: bold 24px Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    div.flex-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    button.estilo-botao {
+        padding: 3px;
+        font-size: 24px;
+        background: none;
+        border-radius: 20px;
+    }
+
+    /* REF. conteudo principal */
+
+        body{
+        background-image: url(/image/beijo-sanju.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+}
+
+h2{
+    margin: 10px;
+}
+
+.titulo{
+    font-family: Nunito;
+    text-shadow: 1px 1px 1px rgb(189, 178, 178);
+}
+
+p.texto-foto{
+    text-align: justify;
+    margin: 5px;
+    font-family: cursive;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgb(189, 178, 178);
+}
+
+div.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+div.position-relative{
+    position: relative;
+}
+
+img.position-absolute{
+    position: absolute;
+    bottom: 65px;
+}
+
+img.primeira-foto {
+    width: 188px;
+    height: 334px;
+}
+
+img.sorriso {
+    width: 208px;
+    height: 225px;
+}
+
+img.olhos {
+    width: 208px;
+}
+
+img.personalidade {
+    width: 200px;
+    height: 250, 5px;
+}
+
+img.festa {
+    width: 228px;
+    height: 324px;
+}
+
+img.viagem {
+    width: 188px;
+    height: 334px;
+}
+
+img.primeiro-ano {
+    width: 188px;
+    height: 334px;
+}
+}
